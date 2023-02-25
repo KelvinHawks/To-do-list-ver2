@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    text-align: center;
+    align-items: center;
+}
+.clr-btn{  
+    background: red;
+    border: none;
+}
+.delete-btn i{
+    color: red;
+}
+.edit-btn i{
+    color: green;
+}
+.submit-button{
+    background: green;
+    border: none;
+    width: 80px;
+    border-radius: 0 3px 3px 0;
+}
+.form-control{
+    display: flex;
+}
+.alert-red{
+    color: red;
+    background-color: rgb(255, 132, 132);
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.alert-green{
+    color: green;
+    background-color: rgb(192, 252, 192);
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 6px;
+}
+.container{
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
